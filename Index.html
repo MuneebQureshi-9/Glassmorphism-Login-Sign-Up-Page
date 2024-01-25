@@ -3,14 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Glassmorphism Login-SignUp-Page | Muneeb Qureshi</title>
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <form>
-        <ul>
-          <li></li>
-        </ul>
+      <h1>Sign Up</h1>
+      <form action="signup.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <br />
+        <input type="submit" value="Sign Up" />
       </form>
     </div>
   </body>
