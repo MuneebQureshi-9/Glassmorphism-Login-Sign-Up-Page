@@ -5,7 +5,10 @@
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
 }
-
+::selection {
+  background-color: #18262a;
+  color: #e8e8e8;
+}
 body {
   background: url(Images/pexels-david-besh-884788.jpg);
   background-position: center;
